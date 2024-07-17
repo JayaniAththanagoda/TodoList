@@ -1,13 +1,13 @@
-import React from 'react';
-import TodoList from './TodoList';
+import React from "react";
+import TodoList from "./TodoList";
+import "./App.css"; // Tell webpack that Button.js uses these styles
 
-const App =() => {
+const App = () => {
   return (
     <div>
-      <TodoList/>
+      <TodoList />
     </div>
   );
 };
-
 
 export default App;
